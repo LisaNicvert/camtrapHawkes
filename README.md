@@ -1,12 +1,15 @@
 # Using the multivariate Hawkes process to study interactions between multiple species from camera trap data
 
-This repository contains the code and data to reproduce the analyses and figures from the following article: 
+This repository contains the code and data to reproduce the analyses and figures from the following article:
 
-> Nicvert L., Donnet S., Keith M., Peel M., Somers M. J., Swanpoel L. H., Venter J., Fritz H. & Dray S (2023). *Using the multivariate Hawkes process to study interactions between multiple species from camera trap data.* [Manuscript in preparation]
+> Nicvert, L., S. Donnet, M. Keith, M. Peel, M. J. Somers, L. H.
+> Swanepoel, J. Venter, H. Fritz, and S. Dray. 2024. Using the
+> Multivariate Hawkes Process to Study Interactions between Multiple
+> Species from Camera Trap Data. Ecology. <https://doi.org/10.1002/ecy.4237>
 
 The dataset published in this repository is a subset of the larger dataset described in Pardo et al. (2021) (see [data/camtrap_data/README.md](data/camtrap_data/README.md) for more details).
 
-To run the analyses, you can install the packages via R (Linux and Mac OS users) or via Docker (Linux, Mac OS and Windows users). The installation procedure is detailed in the [Packages installation](#packages-installation) section. 
+To run the analyses, you can install the packages via R (Linux and Mac OS users) or via Docker (Linux, Mac OS and Windows users). The installation procedure is detailed in the [Packages installation](#packages-installation) section.
 
 ## Contents
 
@@ -24,7 +27,7 @@ To run the analyses, you can install the packages via R (Linux and Mac OS users)
 -   `UnitEvents_0.0.8.tar.gz` is the source package for `UnitEvents`.
 -   `Dockerfile` is the file to create a Docker environment.
 
-## Packages installation
+## Packages installation {#packages-installation}
 
 In order to install the environment needed to run the analyses, you have two choices:
 
@@ -201,6 +204,9 @@ loaded via a namespace (and not attached):
 
 Albert, M., Bouret, Y., Chevallier, J., Fromont, M., Grammont, F., Laloe, T., Mascart, C., Reynaud-Bouret, P., Rouis, A., Scarella, G., & Tuleau-Malot, C. (2021). *UnitEvents: Unitary Events Method with Delayed Coincidence Count (MTGAUE or Permutation Method) and Bernstein Lasso method for Hawkes processes* (0.0.8). <https://sourcesup.renater.fr/frs/?group_id=3267>
 
-Nicvert L., Donnet S., Keith M., Peel M., Somers M. J., Swanpoel L. H., Venter J., Fritz H. & Dray S (2023). *Using the multivariate Hawkes process to study interactions between multiple species from camera trap data.* [Manuscript in preparation]
+Nicvert, L., S. Donnet, M. Keith, M. Peel, M. J. Somers, L. H.
+Swanepoel, J. Venter, H. Fritz, and S. Dray. 2024. Using the
+Multivariate Hawkes Process to Study Interactions between Multiple
+Species from Camera Trap Data. Ecology. <https://doi.org/10.1002/ecy.4237>
 
 Pardo, Lain E. and Bombaci, Sara P. and Huebner, Sarah and Somers, Michael J. and Fritz, Herve and Downs, Colleen and Guthmann, Abby and Hetem, Robyn S. and Keith, Mark and le Roux, Aliza and Mgqatsa, Nokubonga and Packer, Craig and Palmer, Meredith S. and Parker, Daniel M. and Peel, Mike and Slotow, Rob and Strauss, W. Maartin and Swanepoel, Lourens and Tambling, Craig and Tsie, Nairobi and Vermeulen, Mika and Willi, Marco and Jachowski, David S. and Venter, Jan A. (2021). *Snapshot Safari: A large-scale collaborative to monitor Africa's remarkable biodiversity.* South African Journal of Science, 117(1/2). <https://doi.org/10.17159/sajs.2021/8134>
