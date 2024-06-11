@@ -9,3 +9,4 @@
 ^install_dependencies\.R$
 ^README\.md$
 ^LICENSE\.md$
+^\.gitattributes$
