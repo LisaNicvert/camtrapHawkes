@@ -2,10 +2,7 @@
 
 This repository contains the code and data to reproduce the analyses and figures from the following article:
 
-> Nicvert, L., S. Donnet, M. Keith, M. Peel, M. J. Somers, L. H.
-> Swanepoel, J. Venter, H. Fritz, and S. Dray. 2024. Using the
-> Multivariate Hawkes Process to Study Interactions between Multiple
-> Species from Camera Trap Data. Ecology. <https://doi.org/10.1002/ecy.4237>
+> Nicvert, L., S. Donnet, M. Keith, M. Peel, M. J. Somers, L. H. Swanepoel, J. Venter, H. Fritz, and S. Dray. 2024. Using the Multivariate Hawkes Process to Study Interactions between Multiple Species from Camera Trap Data. Ecology. <https://doi.org/10.1002/ecy.4237>
 
 The dataset published in this repository is a subset of the larger dataset described in Pardo et al. (2021) (see [data/camtrap_data/README.md](data/camtrap_data/README.md) for more details).
 
@@ -97,7 +94,6 @@ Finally, run the `install_dependencies.R` script inside the Docker in order to i
 The functions written for this article are organized in a R package (`camtrapHawkes`). This package can be installed with `devtools::install_local` and loaded with `library(camtrapHawkes)`.
 
 Other needed packages are loaded (and if needed, installed) for each analysis script with a custom `camtrapHawkes::require` function.
-
 
 ## Run analyses
 
@@ -213,9 +209,6 @@ loaded via a namespace (and not attached):
 
 Albert, M., Bouret, Y., Chevallier, J., Fromont, M., Grammont, F., Laloe, T., Mascart, C., Reynaud-Bouret, P., Rouis, A., Scarella, G., & Tuleau-Malot, C. (2021). UnitEvents: Unitary Events Method with Delayed Coincidence Count (MTGAUE or Permutation Method) and Bernstein Lasso method for Hawkes processes. <https://sourcesup.renater.fr/frs/?group_id=3267>
 
-Nicvert, L., S. Donnet, M. Keith, M. Peel, M. J. Somers, L. H.
-Swanepoel, J. Venter, H. Fritz, and S. Dray. 2024. Using the
-Multivariate Hawkes Process to Study Interactions between Multiple
-Species from Camera Trap Data. Ecology. <https://doi.org/10.1002/ecy.4237>
+Nicvert, L., S. Donnet, M. Keith, M. Peel, M. J. Somers, L. H. Swanepoel, J. Venter, H. Fritz, and S. Dray. 2024. Using the Multivariate Hawkes Process to Study Interactions between Multiple Species from Camera Trap Data. Ecology. <https://doi.org/10.1002/ecy.4237>
 
 Pardo, L. E., S. P. Bombaci, S. Huebner, M. J. Somers, H. Fritz, C. Downs, A. Guthmann, R. S. Hetem, M. Keith, A. le Roux, N. Mgqatsa, C. Packer, M. S. Palmer, D. M. Parker, M. Peel, R. Slotow, W. M. Strauss, L. Swanepoel, C. Tambling, N. Tsie, M. Vermeulen, M. Willi, D. S. Jachowski, and J. A. Venter. 2021. Snapshot Safari: a large-scale collaborative to monitor Africa’s remarkable biodiversity. South African Journal of Science **117**:1–4. <https://doi.org/10.17159/sajs.2021/8134>
